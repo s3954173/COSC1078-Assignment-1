@@ -3,7 +3,8 @@ font-size: 13px;
 }
 
 body {
-background-image: url("background.png");
+height: 100%;
+background-color: #c8c5af;
 font-family: 'Oswald', sans-serif;;
 font-size: 1.6rem;
 line-height: 1;
@@ -12,14 +13,40 @@ color: #514c43;
 margin: 500;
 }
 
+img{
+  align-items:center;
+}
+
 div {
-border:3px solid black;
-border-style: inset;
+border:8px solid black;
+border-style: double;
 border-spacing: 20px;
 }
 
 h1{
-  color: #cac9c6;
-  background: ;
-  background-color: #403c35;
+color: #cac9c6;
+opacity: 0.8;
+background-color: #403c35;
+}
+
+h3 {
+font-style: italic;
+}
+
+p {
+  max-width: 1300px;
+  margin: 20px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+ul {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
 }
