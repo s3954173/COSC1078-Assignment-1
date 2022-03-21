@@ -15,12 +15,14 @@ margin: 500;
 
 img{
   align-items:center;
+  border: 5px solid black;
 }
 
 div {
 border:8px solid black;
 border-style: double;
-border-spacing: 20px;
+border-spacing: 15px 50px;
+padding-bottom: 40px;
 }
 
 h1{
@@ -31,10 +33,12 @@ background-color: #403c35;
 
 h3 {
 font-style: italic;
+font-weight: bold;
+padding-top: 16px;
 }
 
 p {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 20px auto;
   text-align: left;
   line-height: 1.6;
