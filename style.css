@@ -1,0 +1,25 @@
+html {
+font-size: 13px;
+}
+
+body {
+background-image: url("background.png");
+font-family: 'Oswald', sans-serif;;
+font-size: 1.6rem;
+line-height: 1;
+text-align: center;
+color: #514c43;
+margin: 500;
+}
+
+div {
+border:3px solid black;
+border-style: inset;
+border-spacing: 20px;
+}
+
+h1{
+  color: #cac9c6;
+  background: ;
+  background-color: #403c35;
+}
